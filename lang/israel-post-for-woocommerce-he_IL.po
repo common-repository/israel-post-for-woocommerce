@@ -1,0 +1,736 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Israel Post for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-28 10:34+0000\n"
+"PO-Revision-Date: 2020-07-28 10:34+0000\n"
+"Last-Translator: John\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: includes/class-wc-il-post-front.php:206
+#: includes/class-wc-il-post-front.php:313
+#: templates/emails/il-post-tracking-info.php:25
+#: templates/emails/il-post-tracking-info.php:38
+#: templates/myaccount/il-post-tracking-info.php:24
+#: templates/myaccount/il-post-tracking-info.php:36
+msgid "Tracking Number"
+msgstr "מספר מעקב"
+
+#: includes/class-wc-il-post-front.php:243
+#: includes/class-wc-il-post-front.php:350
+msgid "Shipment Progress"
+msgstr ""
+"מצב המשלוח\n"
+
+#. Author of the plugin
+#: includes/class-wc-il-post-settings.php:79
+msgid "Israel Post"
+msgstr "דואר ישראל"
+
+#: includes/class-wc-il-post-settings.php:107
+msgid "Account settings"
+msgstr "הגדרות חשבון"
+
+#: includes/class-wc-il-post-settings.php:110
+msgid "Sender Address"
+msgstr "כתובת השולח"
+
+#: includes/class-wc-il-post-settings.php:113
+#: includes/views/generate-label-popup.php:405
+msgid "Shipping Options"
+msgstr "אפשרויות משלוח"
+
+#: includes/class-wc-il-post-settings.php:116
+msgid "Tracking Page"
+msgstr "עמוד מעקב משלוח"
+
+#: includes/class-wc-il-post-settings.php:118
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: includes/class-wc-il-post-settings.php:155
+#: includes/class-wc-il-post-settings.php:808
+msgid "Title"
+msgstr "שם התבנית"
+
+#: includes/class-wc-il-post-settings.php:156
+msgid "Length"
+msgstr "אורך"
+
+#: includes/class-wc-il-post-settings.php:157
+msgid "Width"
+msgstr "רוחב"
+
+#: includes/class-wc-il-post-settings.php:158
+msgid "Height"
+msgstr "עומק"
+
+#: includes/class-wc-il-post-settings.php:159
+msgid "Cancel"
+msgstr "בטל"
+
+#: includes/class-wc-il-post-settings.php:191
+msgid "Add new"
+msgstr "הוספה"
+
+#: includes/class-wc-il-post-settings.php:193
+msgid "Add"
+msgstr "הוספה"
+
+#: includes/class-wc-il-post-settings.php:211
+msgid "Your IP"
+msgstr "כתובת ה - IP של השרת:"
+
+#: includes/class-wc-il-post-settings.php:295
+#: includes/class-wc-il-post-settings.php:922
+msgid "Connection Successfull"
+msgstr "החיבור ל- API תקין"
+
+#: includes/class-wc-il-post-settings.php:299
+msgid "Connection Failed"
+msgstr "החיבור נכשל"
+
+#: includes/class-wc-il-post-settings.php:343
+msgid "Israel Post username"
+msgstr "שם משתמש חשבון סחר חוץ"
+
+#: includes/class-wc-il-post-settings.php:345
+#: includes/class-wc-il-post-settings.php:352
+msgid "Israel Post Account login Details"
+msgstr "פרטי גישה לפורטל סחר חוץ של דואר ישראל"
+
+#: includes/class-wc-il-post-settings.php:350
+msgid "Israel Post password"
+msgstr "סיסמא חשבון סחר חוץ"
+
+#: includes/class-wc-il-post-settings.php:368
+msgid "Client Name"
+msgstr "שם לקוח (client name)"
+
+#: includes/class-wc-il-post-settings.php:370
+msgid ""
+"The Client Name is required for authentication and creates the tokens needed "
+"to ensure secure access to Israel Post API."
+msgstr ""
+"שם הלקוח נדרש לאימות על מנת להבטיח גישה מאובטחת לממשק ה- API של דואר ישראל."
+
+#: includes/class-wc-il-post-settings.php:375
+msgid "Client Identity"
+msgstr "מזהה לקוח (Client Identity)"
+
+#: includes/class-wc-il-post-settings.php:377
+msgid ""
+"The Client Identity is required for authentication and creates the tokens "
+"needed to ensure secure access to Israel Post API."
+msgstr ""
+"מזהה הלקוח נדרש לאימות על מנת להבטיח גישה מאובטחת לממשק ה- API של דואר ישראל."
+"\n"
+
+#: includes/class-wc-il-post-settings.php:383
+#, php-format
+msgid ""
+"In order to obtain the API keys, you need to send email the Israel Post "
+"support (PostilAPISupport@malam.com) and provide your Israel Post account "
+"name and server IP address (%s) to whitelist it."
+msgstr ""
+"בכדי להשיג את מפתחות ה- API, עליכם לשלוח דוא\"ל לתמיכה בדואר ישראל "
+"(PostilAPISupport@malam.com) ולספק את השם משתמש בפורטל סחר חוץ ואת כתובת ה- "
+"IP של השרת:  (%s) כדי להוסיף אותה לרשימת המורשים.\n"
+
+#: includes/class-wc-il-post-settings.php:388
+msgid "Enable Sandbox Mode"
+msgstr "אפשר מצב Sandbox"
+
+#: includes/class-wc-il-post-settings.php:389
+msgid ""
+"Please tick here if you want to test the plug-in installation against the "
+"Israel Post Sandbox Environment. Labels generated via Sandbox cannot be used "
+"for shipping and you need to enter your client ID and client secret for the "
+"Sandbox environment instead of the ones for production!"
+msgstr ""
+"אנא סמן כאן אם ברצונך לבדוק את התקנת הפלאגין כנגד סביבת ארגז החול של דואר "
+"ישראל. לא ניתן להשתמש בתוויות שנוצרו באמצעות ארגז החול למשלוח ועליך להזין את "
+"מזהה הלקוח ואת סוד הלקוח שלך לסביבת ארגז החול במקום את הפרטים של סביבת "
+"הייצור!\n"
+
+#: includes/class-wc-il-post-settings.php:394
+#: includes/class-wc-il-post-settings.php:395
+msgid "Test Connection"
+msgstr "בדוק חיבור"
+
+#: includes/class-wc-il-post-settings.php:396
+msgid ""
+"<span class=\"rednotice\">Please make sure to save any changed settings "
+"before testing the connection.</span><br>Press the test connection button to "
+"check the connection against the Israel Post API (depending on the selected "
+"environment, Sandbox or Production)."
+msgstr ""
+"<span class=\"rednotice\">אנא הקפד לשמור את ההגדרות שהשתנו לפני שתבצע בדיקה "
+"של את החיבור.</span><br>לחץ על כפתור בדיקת החיבור כדי לבדוק את החיבור מול "
+"ממשק ה- API של דואר ישראל (תלוי בסביבה שנבחרה, ארגז חול או ייצור)."
+
+#: includes/class-wc-il-post-settings.php:402
+msgid "Debug Log"
+msgstr "לוג שגיאות"
+
+#: includes/class-wc-il-post-settings.php:403
+#, php-format
+msgid ""
+"A log file containing the communication to the Israel Post server will be "
+"maintained if this option is checked. This can be used in case of technical "
+"issues and can be found %shere%s."
+msgstr ""
+"אם תיבדק אפשרות זו, ישמר קובץ יומן המכיל את התקשורת לשרת דואר ישראל. ניתן "
+"להשתמש בזה במקרה של בעיות טכניות וניתן למצוא את הלוג %shere%s\n"
+
+#: includes/class-wc-il-post-settings.php:404
+msgid ""
+"A log file containing the communication to the Israel Post server will be "
+"maintained if this option is checked. This can be used in case of technical "
+"issues and can be found here"
+msgstr ""
+"אם תבחרו באפשרות זו, ישמר קובץ יומן המכיל את נתוני התקשורת לשרת דואר ישראל. "
+"ניתן להשתמש ביומן הזה במקרה של בעיות טכניות וניתן למצוא אותו כאן\n"
+
+#: includes/class-wc-il-post-settings.php:430
+msgid "Email address"
+msgstr "אימייל"
+
+#: includes/class-wc-il-post-settings.php:442
+msgid "Use sender phone as customer phone in case customer phone is empty"
+msgstr "השתמש בשטר המטען בטלפון השולח במקרה והטלפון של הנמען לא נמצא בהזמנה."
+
+#: includes/class-wc-il-post-settings.php:473
+msgid "Israel"
+msgstr "ישראל"
+
+#: includes/class-wc-il-post-settings.php:494
+msgid "Default shipping service"
+msgstr "שיטת משלוח ברירת מחדל"
+
+#: includes/class-wc-il-post-settings.php:511
+#: includes/views/generate-label-popup.php:424
+msgid "Label Format"
+msgstr "פורמט שטר המטען"
+
+#: includes/class-wc-il-post-settings.php:524
+#: includes/views/generate-label-popup.php:439
+msgid "Customs Procedure Type"
+msgstr "סוג פרוצדורת מכס"
+
+#: includes/class-wc-il-post-settings.php:534
+msgid "Customs Declaration"
+msgstr "הצהרת מכס"
+
+#: includes/class-wc-il-post-settings.php:547
+msgid "Insurance Type"
+msgstr "סוג ביטוח"
+
+#: includes/class-wc-il-post-settings.php:558
+#: includes/views/generate-label-popup.php:454
+msgid "Export Entry Document"
+msgstr "רשומון ייצוא"
+
+#: includes/class-wc-il-post-settings.php:569
+msgid "Default Package Material Weight"
+msgstr "משקל אריזה ברירת מחדל"
+
+#: includes/class-wc-il-post-settings.php:575
+msgid "Use USPS if destination country is USA"
+msgstr "במקרה של יעד ארה״ב השתמש במעקב של USPS"
+
+#: includes/class-wc-il-post-settings.php:586
+msgid "Package dimension template"
+msgstr "תבנית מידות חבילה"
+
+#: includes/class-wc-il-post-settings.php:604
+msgid "Which tracking page you want to use?"
+msgstr "לאן להפנות לקוחות למעקב משלוחים?"
+
+#: includes/class-wc-il-post-settings.php:607
+msgid "Tracking on Israel Post website"
+msgstr "מעקב משלוחים באתר דואר ישראל"
+
+#: includes/class-wc-il-post-settings.php:608
+msgid "Tracking page on your store"
+msgstr "מעקב משלוחים בחנות"
+
+#: includes/class-wc-il-post-settings.php:614
+msgid "Select tracking page"
+msgstr "בחר עמוד שישמש למעקב משלוחים"
+
+#: includes/class-wc-il-post-settings.php:620
+msgid ""
+"In case you choose a different page than the default \"Shipment Tracking\" "
+"page, make sure to add the [il-post-track-order] shortcode to the selected "
+"page."
+msgstr ""
+"במקרה שתבחר עמוד שונה מדף ברירת המחדל של \"מעקב אחר משלוח\", וודא להוסיף את "
+"קוד ה- [il-post-track-order] לדף שנבחר."
+
+#: includes/class-wc-il-post-settings.php:625
+msgid "Tracking Page Theme Color"
+msgstr "צבע ראשי עמוד מעקב משלוחים"
+
+#: includes/class-wc-il-post-settings.php:807
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: includes/class-wc-il-post-settings.php:809
+msgid "Dimension"
+msgstr "מידות"
+
+#: includes/class-wc-il-post-settings.php:810
+msgid "Action"
+msgstr "פעולות"
+
+#: includes/class-wc-il-post-settings.php:915
+msgid "Connection fail, Please try again"
+msgstr "החיבור נכשל, אנא נסה שנית"
+
+#: includes/class-wc-il-post-admin.php:70
+msgid "IL Post Shipping Label"
+msgstr "יצירת שטר מטען דואר ישראל"
+
+#: includes/class-wc-il-post-admin.php:212
+msgid "Generate Label"
+msgstr "צור שטר מטען"
+
+#: includes/class-wc-il-post-admin.php:477
+msgid "Y-m-d"
+msgstr ""
+
+#: includes/class-wc-il-post-admin.php:500
+msgid "Israel Post shipping label generated successfully."
+msgstr "תווית המשלוח של דואר ישראל הופקה בהצלחה."
+
+#: includes/class-wc-il-post-admin.php:610
+msgid "Click here to track your shipment"
+msgstr "למעקב אחר המשלוח"
+
+#: includes/class-wc-il-post-admin.php:610
+#: templates/emails/il-post-tracking-info.php:46
+#: templates/myaccount/il-post-tracking-info.php:46
+msgid "Track"
+msgstr "עקוב"
+
+#: includes/class-wc-il-post-admin.php:614
+msgid "Download Label"
+msgstr "הדפס שטר מטען"
+
+#: includes/class-wc-il-post-admin.php:617
+#, php-format
+msgid "Shipped on %s"
+msgstr "נשלח ב- %s"
+
+#: includes/class-wc-il-post-admin.php:751
+msgid "Print IL Post shipping label"
+msgstr "הדפס שטר מטען של דואר ישראל"
+
+#: includes/views/admin_options_settings.php:13
+msgid "Israel Post Account"
+msgstr "חשבון דואר ישראל (סחר חוץ)"
+
+#: includes/views/admin_options_settings.php:24
+#: includes/views/admin_options_settings.php:51
+#: includes/views/admin_options_shipping_settings.php:24
+#: includes/views/admin_options_t_page_settings.php:31
+#: includes/views/admin_options_sender_address.php:24
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: includes/views/admin_options_settings.php:26
+#: includes/views/admin_options_settings.php:53
+#: includes/views/admin_options_shipping_settings.php:26
+#: includes/views/admin_options_t_page_settings.php:33
+#: includes/views/admin_options_sender_address.php:26
+msgid "Data saved successfully."
+msgstr "נשמר בהצלחה"
+
+#: includes/views/admin_options_settings.php:40
+msgid "API Settings"
+msgstr "הגדרות API"
+
+#: includes/views/admin_options_shipping_settings.php:13
+msgid "Shipping Options Settings"
+msgstr "הגדרת אפשרויות משלוח"
+
+#: includes/views/admin_options_t_page_settings.php:14
+msgid "Tracking Page Settings"
+msgstr "הגדרות עמוד מעקב משלוחים"
+
+#: includes/views/admin_options_t_page_settings.php:24
+msgid "Click to preview the tracking page"
+msgstr "לצפייה מוקדמת בעמוד המעקב"
+
+#: includes/views/admin_options_t_page_settings.php:25
+msgid "PLEASE NOTE - make sure to save your settings before preview."
+msgstr ""
+"שימו לב - יש לשמור את ההגדרות לפני תצוגה מקדימה על מנת לראות את השינויים.\n"
+
+#: includes/views/generate-label-popup.php:17
+msgid "Create Israel Post Shipping Label"
+msgstr "טופס יצירת שטר מטען"
+
+#: includes/views/generate-label-popup.php:22
+#: includes/views/generate-label-popup.php:508
+msgid ""
+"No response from Israel Post API, please verify with the Israel Post that "
+"your server IP is whitelisted."
+msgstr ""
+
+#: includes/views/generate-label-popup.php:24
+msgid ""
+"Shipping country not found. Please check in order that the shipping country "
+"exists."
+msgstr ""
+
+#: includes/views/generate-label-popup.php:26
+#: includes/views/generate-label-popup.php:512
+msgid "No available shipping options for the destination country."
+msgstr "אין אפשרויות משלוח זמינות למדינת היעד."
+
+#: includes/views/generate-label-popup.php:28
+#: includes/views/generate-label-popup.php:514
+msgid ""
+"Connection refused, your server blocks the calls to Israel Post API on ports "
+"1444 or 8090"
+msgstr ""
+
+#: includes/views/generate-label-popup.php:33
+#, php-format
+msgid ""
+"Before you can create your first label. please complete all required fields "
+"in the <a href=\"%s\" target=\"blank\"> sender address settings.</a>"
+msgstr ""
+"לפני שתוכל ליצור את התווית הראשונה שלך. אנא מלא את כל השדות הנדרשים בהגדרות "
+"<a href=\"%s\" target=\"blank\">כתובת השולח</a>."
+
+#: includes/views/generate-label-popup.php:40
+msgid "Please note that the order shipping address is incomplete"
+msgstr ""
+
+#: includes/views/generate-label-popup.php:45
+#: includes/views/generate-label-popup.php:76
+msgid "To"
+msgstr "אל"
+
+#: includes/views/generate-label-popup.php:78
+msgid "Recipient company can't be greater than 200 character."
+msgstr "שם חברה לא יכול להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:80
+msgid "Please enter recipient company"
+msgstr "הזן שם חברה של הנמען"
+
+#: includes/views/generate-label-popup.php:82
+#: includes/views/generate-label-popup.php:84
+msgid "Please enter recipient name"
+msgstr "הזן שם הנמען"
+
+#: includes/views/generate-label-popup.php:82
+msgid "Recipient name can't be greater than 200 character."
+msgstr "שם הנמען לא יכול להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:87
+#: includes/views/generate-label-popup.php:89
+msgid "Please enter recipient email"
+msgstr "הזן כתובת אימייל של הנמען"
+
+#: includes/views/generate-label-popup.php:92
+#: includes/views/generate-label-popup.php:94
+msgid "Please enter recipient phone"
+msgstr "הזן מספר טלפון של הנמען"
+
+#: includes/views/generate-label-popup.php:92
+msgid "Recipient phone can't be greater than 20 numbers."
+msgstr "מספר טלפון של הנמען לא יכול להיות יותר מ - 20 מספרים"
+
+#: includes/views/generate-label-popup.php:92
+msgid "Please enter valid recipient phone number."
+msgstr "מספר הטלפון של הנמען לא תקין"
+
+#: includes/views/generate-label-popup.php:98
+#: includes/views/generate-label-popup.php:204
+msgid "Cell Phone"
+msgstr "מספר טלפון נייד"
+
+#: includes/views/generate-label-popup.php:99
+msgid "Please enter recipient cell phone"
+msgstr "הזן מספר טלפון נייד של הנמען"
+
+#: includes/views/generate-label-popup.php:103
+#: includes/views/generate-label-popup.php:209
+msgid "Fax"
+msgstr "פקס"
+
+#: includes/views/generate-label-popup.php:104
+msgid "Please enter recipient fax"
+msgstr "הזן מספר פקס של הנמען"
+
+#: includes/views/generate-label-popup.php:108
+#: includes/views/generate-label-popup.php:110
+msgid "Please enter recipient address line 1"
+msgstr "הזן מספר רחוב ובית של הנמען"
+
+#: includes/views/generate-label-popup.php:108
+msgid "Recipient address can't be greater than 200 character."
+msgstr "כתובת הנמען לא יכולה להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:115
+msgid "Please enter recipient address line 2"
+msgstr "הזן מספר דירה של הנמען"
+
+#: includes/views/generate-label-popup.php:118
+#: includes/views/generate-label-popup.php:120
+msgid "Please enter recipient city"
+msgstr "הזן עיר של הנמען"
+
+#: includes/views/generate-label-popup.php:118
+msgid "Recipient city can't be greater than 200 character."
+msgstr "עיר הנמען לא יכולה להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:125
+msgid "Please enter recipient State"
+msgstr "הזן מדינה של השולח"
+
+#: includes/views/generate-label-popup.php:144
+#: includes/views/generate-label-popup.php:146
+msgid "Please enter recipient postal code"
+msgstr "הזן מיקוד של הנמען"
+
+#: includes/views/generate-label-popup.php:144
+msgid "Recipient postal code can't be greater than 50 character."
+msgstr "מיקוד של הנמען לא יכול להיות יותר מ - 50 תווים"
+
+#: includes/views/generate-label-popup.php:153
+#: includes/views/generate-label-popup.php:181
+msgid "From"
+msgstr "מאת"
+
+#: includes/views/generate-label-popup.php:183
+msgid "Sender company name can't be greater than 200 character."
+msgstr "שם חברה של השולח לא יכולה להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:185
+msgid "Please enter sender company"
+msgstr "הזן שם חברה של השולח"
+
+#: includes/views/generate-label-popup.php:188
+#: includes/views/generate-label-popup.php:190
+msgid "Please enter sender name"
+msgstr "הזן את שם השולח"
+
+#: includes/views/generate-label-popup.php:188
+msgid "Sender name can't be greater than 200 character."
+msgstr "שם השולח לא יכול להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:195
+msgid "Please enter sender email"
+msgstr "הזן כתובת אימייל של השולח"
+
+#: includes/views/generate-label-popup.php:198
+#: includes/views/generate-label-popup.php:200
+msgid "Please enter sender phone"
+msgstr "הזן מספר טלפון של השולח"
+
+#: includes/views/generate-label-popup.php:198
+msgid "Sender phone can't be greater than 20 numbers."
+msgstr "מספר הטלפון של השולח לא יכול להיות יותר מ - 20 מספרים"
+
+#: includes/views/generate-label-popup.php:198
+msgid "Please enter valid sender phone number."
+msgstr "מספר הטלפון של השולח לא תקין"
+
+#: includes/views/generate-label-popup.php:205
+msgid "Please enter sender cell phone"
+msgstr "הזן מספר טלפון נייד של השולח"
+
+#: includes/views/generate-label-popup.php:210
+msgid "Please enter sender fax"
+msgstr "הזן מספר פקס של השולח"
+
+#: includes/views/generate-label-popup.php:213
+#: includes/views/generate-label-popup.php:215
+msgid "Please enter sender address line 1"
+msgstr "הזן מספר רחוב ובית של השולח"
+
+#: includes/views/generate-label-popup.php:213
+msgid "Sender address can't be greater than 200 character."
+msgstr "כתובת השולח לא יכולה להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:220
+msgid "Please enter sender address line 2"
+msgstr "הזן מספר דירה של השולח"
+
+#: includes/views/generate-label-popup.php:223
+#: includes/views/generate-label-popup.php:225
+msgid "Please enter sender city"
+msgstr "הזן עיר של השולח"
+
+#: includes/views/generate-label-popup.php:223
+msgid "Sender city can't be greater than 200 character."
+msgstr "עיר השולח לא יכולה להיות יותר מ - 200 תווים"
+
+#: includes/views/generate-label-popup.php:238
+#: includes/views/generate-label-popup.php:240
+msgid "Please enter sender postal code"
+msgstr "הזן מיקוד של השולח"
+
+#: includes/views/generate-label-popup.php:238
+msgid "Sender Postal Code can't be greater than 50 character."
+msgstr "מיקוד השולח לא יכול להיות יותר מ - 50 תווים"
+
+#: includes/views/generate-label-popup.php:247
+msgid "Product & Package Details"
+msgstr "פרטי מוצרים ואריזה"
+
+#: includes/views/generate-label-popup.php:253
+msgid "Item"
+msgstr "פריט"
+
+#: includes/views/generate-label-popup.php:254
+msgid "Qty"
+msgstr "כמות"
+
+#: includes/views/generate-label-popup.php:255
+msgid "Weight (ea)"
+msgstr "משקל"
+
+#: includes/views/generate-label-popup.php:256
+msgid "Value (ea)"
+msgstr "ערך"
+
+#: includes/views/generate-label-popup.php:257
+msgid "HS Code"
+msgstr ""
+
+#: includes/views/generate-label-popup.php:327
+msgid "Product weight is required"
+msgstr "משקל מוצרים זה שדה חובה"
+
+#: includes/views/generate-label-popup.php:340
+msgid "Contents Description"
+msgstr "תאור התכולה"
+
+#: includes/views/generate-label-popup.php:341
+msgid "Your description here..."
+msgstr "הקלד את התיאור כאן"
+
+#: includes/views/generate-label-popup.php:347
+msgid "Package Weight"
+msgstr "משקל חבילה"
+
+#: includes/views/generate-label-popup.php:358
+msgid "Total"
+msgstr "סה״כ"
+
+#: includes/views/generate-label-popup.php:374
+msgid "Package dimension"
+msgstr "מידות חבילה"
+
+#: includes/views/generate-label-popup.php:376
+msgid "Custom"
+msgstr "אחר"
+
+#: includes/views/generate-label-popup.php:409
+msgid "Shipping Types"
+msgstr "סוגי משלוח"
+
+#: includes/views/generate-label-popup.php:465
+msgid "Customs Declaration ID"
+msgstr "מזהה הצהרת מכס"
+
+#: includes/views/generate-label-popup.php:480
+msgid "Insurance Type ID"
+msgstr "מזהה סוג ביטוח"
+
+#: includes/views/generate-label-popup.php:493
+msgid "Insurance Value"
+msgstr "ערך לביטוח"
+
+#: includes/views/generate-label-popup.php:494
+msgid "Enter Insurance Value"
+msgstr "ערך לביטוח"
+
+#: includes/views/generate-label-popup.php:510
+msgid ""
+"Shipping country not found. Please check in order that shipping country "
+"exist."
+msgstr ""
+
+#: includes/views/generate-label-popup.php:520
+msgid "Print IL Post Shipping Label"
+msgstr "הדפס שטר מטען של דואר ישראל"
+
+#: includes/views/il_post_admin_sidebar.php:8
+msgid "Your opinion matters to us!"
+msgstr "חוות הדעת שלך חשובה לנו"
+
+#: includes/views/il_post_admin_sidebar.php:9
+msgid ""
+"If you enjoy using Israel Post plugin, please take a minute to review the "
+"plugin"
+msgstr ""
+"אם אהבת את התוסף של דואר ישראל, בבקשה הוסף את הביקורת שלך ודרג אותנו "
+"במרקטפלייס של וורדפרס"
+
+#: includes/views/il_post_admin_sidebar.php:10
+msgid "Share your review"
+msgstr "שתף את חוות הדעת שלך"
+
+#: includes/views/admin_options_sender_address.php:13
+msgid "From Address"
+msgstr "כתובת השולח"
+
+#: templates/emails/il-post-tracking-info.php:18
+#: templates/myaccount/il-post-tracking-info.php:18
+msgid "Israel Post Tracking Information"
+msgstr "מידע על מעקב אחר דואר ישראל"
+
+#: templates/emails/il-post-tracking-info.php:24
+#: templates/emails/il-post-tracking-info.php:35
+#: templates/myaccount/il-post-tracking-info.php:23
+#: templates/myaccount/il-post-tracking-info.php:33
+msgid "Provider"
+msgstr "ספק"
+
+#: templates/emails/il-post-tracking-info.php:26
+#: templates/myaccount/il-post-tracking-info.php:25
+#: templates/myaccount/il-post-tracking-info.php:39
+msgid "Date"
+msgstr "תאריך"
+
+#: templates/emails/il-post-tracking-info.php:41
+msgid "Status"
+msgstr "סטטוס"
+
+#. Name of the plugin
+msgid "Israel Post for WooCommerce"
+msgstr "דואר ישראל עבור ווקומרס"
+
+#. Description of the plugin
+msgid ""
+"The Israel post app allows you to create & print Israel Post international "
+"shipping labels, clearance documents directly through your store's orders "
+"admin. The plugin integrates the Israel post API into WooCommerce to create "
+"and print shipping labels, fulfill orders and track shipments."
+msgstr ""
+"תוסף דואר ישראל מקשר בין פלטפורמת ווקומרס ובין ה - API  של דואר ישראל ומאפשר "
+"להפיק שטרי מטען של דואר ישראל למשלוחים בינ״ל ישירות מתוך ממשק הניהול של "
+"ווקומרס. \n"
+
+#. URI of the plugin
+msgid "https://www.zorem.co.il/product/israel-post-plugin-for-woocommerce/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.israelpost.co.il/"
+msgstr ""
